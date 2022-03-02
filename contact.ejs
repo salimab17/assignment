@@ -30,27 +30,28 @@
         </div>
       </nav>
 <div class="d-flex justify-content-center">Contact</div>
-<p>Islamabad
-    House 5, Street 17
-    Sector F-6/2
-    Islamabad
-    
-    Phone: 051-8431300
-    
-    E-mail: info@usefp.org
-    
-    Lahore
-    USEFP/Prometric Testing
-    Inside FC College
-    Gulberg, Lahore
-    
-    Phone: 042-35762467
-    
-    Karachi
-    17th floor, BRR Tower
-    I.I. Chundrigar Road
-    Karachi
-    
-    Phone: 021-32630672</p>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="pak">pak</option>
+      <option value="por">por</option>
+      <option value="ger">ger</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
